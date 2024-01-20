@@ -20,5 +20,5 @@ clang++ -o test test.cpp
 llvm-as test.ll # generate LLVM bitcode
 llvm-dis test.bc -o test-2.ll
 
-clang++ -S test.ll
+clang++ -S test.ll # llc test.ll
 ```
