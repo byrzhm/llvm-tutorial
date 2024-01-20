@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# tmp files will not be tracked
+tmp/
+
+.vscode/settings.json
