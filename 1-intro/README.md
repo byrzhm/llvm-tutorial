@@ -11,7 +11,7 @@ llvm-dis: llvm disassembler
 ---
 
 ```bash
-clang++ -S -emit-llvm test.cpp
+clang++ -S -emit-llvm test.cpp # opt test.ll -S --O3
 clang++ -o test test.cpp
 
 # lli 解释执行 .ll 文件
